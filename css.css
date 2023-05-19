@@ -33,7 +33,7 @@
 
    
   .content-inner:hover .content-front{
-    transform: rotateY(-180deg);
+    transform: rotateY(180deg);
   }
    
   .content-inner:hover .content-back{
@@ -58,7 +58,7 @@
   }
    
   .content-inner > *{
-    transition: .9s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     font-family: 'Inter', sans-serif;
   }
   
