@@ -12,6 +12,7 @@
 
   body{
     background-color: #000;
+
   }
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
   
@@ -194,7 +195,7 @@
     height: 100%;
     z-index: 0;
     transform: rotateY(180deg);
-    background: #fffbfb;
+    background-image: linear-gradient(rgb(242, 86, 38), rgb(228, 228, 228));
     border-radius: 10px;
   }
    
